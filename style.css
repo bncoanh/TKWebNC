@@ -1,0 +1,368 @@
+:root {
+    --primary-color: #10b981;
+    --secondary-color: #f3f4f6;
+    --dark-color: #1f2937;
+    --light-color: #ffffff;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 4px;
+    padding: 8px 20px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #0d9868;
+    border-color: #0d9868;
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 4px;
+    padding: 8px 20px;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.banner-section {
+    margin-bottom: 30px;
+}
+
+.featured-product {
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.featured-product img {
+    transition: transform 0.3s ease;
+}
+
+.featured-content {
+    transition: all 0.3s ease;
+}
+
+.featured-content h3,
+.featured-content h5,
+.featured-content p {
+    transition: transform 0.3s ease;
+}
+
+.featured-product:hover .featured-content h3,
+.featured-product:hover .featured-content h5,
+.featured-product:hover .featured-content p {
+    transform: translateY(-5px);
+}
+
+.featured-product .btn {
+    transition: all 0.3s ease;
+}
+
+.category-item {
+    padding: 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #eee;
+}
+
+.category-icon {
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.category-icon i {
+    transition: all 0.3s ease;
+}
+
+.category-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.category-item:hover .category-icon i {
+    color: rgb(16, 185, 129) !important; /* Bootstrap primary color */
+    transform: scale(1.2);
+}
+
+.category-item:hover h6 {
+    color: rgb(16, 185, 129) !important;
+}
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.section-title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+
+.product-card {
+    overflow: hidden; /* Contains the zoomed image */
+}
+
+.product-card .card-img-top {
+    transition: transform 0.3s ease;
+    height: 180px;
+    object-fit: contain;
+    padding: 20px;
+}
+
+/* Remove the inline transform scale from HTML */
+.product-card {
+    height: 100%;
+}
+
+.product-price {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #ffffff;
+    margin-right: 8px;
+    font-size: 0.9rem;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.rating {
+    color: #ffc107;
+    font-size: 0.9rem;
+}
+
+.advantages-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    margin: 40px 0;
+}
+
+.advantage-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.advantage-icon {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(16, 185, 129, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    color: var(--primary-color);
+}
+
+.airpods-banner {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+}
+
+.airpods-content {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+}
+
+.airpods-image {
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    width: 40%;
+    max-height: 180px;
+}
+
+.countdown-section {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.countdown-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.countdown-item {
+    background-color: #000000;
+    padding: 10px 15px;
+    border-radius: 10px;
+    min-width: 80px;
+    text-align: center;
+}
+
+.countdown-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.countdown-label {
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 60px 0 30px;
+}
+
+.footer h5 {
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #d1d5db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.footer-links ul {
+    list-style: none; /* Xoá dấu chấm */
+    padding-left: 0;
+    margin: 0;
+}
+
+.footer-links ul li a {
+    color: white; /* Màu trắng */
+    text-decoration: none; /* Bỏ gạch chân */
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #0dcaf0; /* Màu xanh nhạt khi hover (Bootstrap's info) */
+    text-decoration: underline;
+}
+
+.footer-links h5 {
+    color: white;
+}
+
+.copyright {
+    background-color: #111827;
+    color: #9ca3af;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
+
+.articles-section .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.articles-section .card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+.articles-section .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.articles-section .card-footer {
+    background-color: transparent;
+    border-top: 1px solid #eee;
+    padding: 10px 15px;
+}
+
+.articles-section .card-footer span {
+    color: #666;
+    font-size: 0.8rem;
+}
+
+.brand-item {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.brand-item img {
+    max-height: 50px;
+    max-width: 100%;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+.brand-item:hover img {
+    filter: grayscale(0);
+    opacity: 1;
+}

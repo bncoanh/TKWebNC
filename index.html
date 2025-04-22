@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>XStore Elementor Electronic Mega Market</title>
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+        
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="script.js"></script>
+        <script src="./FeaturedProducts/thuphong.js"></script>
+        <script src="./PopularCategories/script.js"></script>
+        <script src="./NewArrivalProducts/script.js"></script>
+
+
+    </head>
+    
+    <body>
+        <div id="header-container"></div>
+    <script>
+        $(document).ready(function() {
+            // Load nội dung footer.html vào div có id là footer-container
+            $("#header-container").load("header.html");
+        });
+    </script>
+
+        <!-- Featured Products Section -->
+        <section class="banner-section pt-5">
+            <div class="container">
+            
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="featured-product position-relative" style="height: 390px;">
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/slide01.jpeg"
+                                alt="Sony Headphones"
+                                class="img-fluid w-100 rounded"
+                                style="object-fit: cover; height: 100%;"
+                            />
+                            <div class="featured-content position-absolute text-white p-4" style="top: 0; left: 0; width: 100%; height: 100%;  display: flex; flex-direction: column; justify-content: center; align-items: start;">
+                                <h3>Sony 5G Headphones</h3>
+                                <p>🎧 Advanced noise cancellation</p>
+                                <a href="../shop/index.html" class="btn btn-primary mt-2">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-6 ">
+                        <div class="row g-4">
+
+                            <div class="col-lg-6 ">
+                            <div class="featured-product position-relative" style="height: 390px;">
+                                <img
+                                        src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Banner-2.jpeg"
+                                        alt="Air Move 3"
+                                        class="img-fluid  w-100 rounded"
+                                        style="object-fit: cover; height: 100%;"
+                                    />
+                                <div class="featured-content position-absolute text-white p-4" style="top: 0; left: 0; width: 77%; height: 100%;  display: flex; flex-direction: column; align-items: start;">
+                                    <h5 class="text-black">Air Move 3</h5>
+                                        <p class="text-black">Wireless earbuds</p>
+                                        <a href="../shop/index.html" class="btn btn-primary mt-2"
+                                            >Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                            
+                            <div class="col-md-6">
+                                <div class="featured-product position-relative ">
+                                <img
+                                        src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Banner-3.jpeg"
+                                        alt="HandFeel Fan"
+                                        class="img-fluid w-100"
+                                        style="object-fit: cover; height: 100%;"
+                                    />
+                                    <div class="featured-content position-absolute text-white p-4" style="top: 0; left: 0; width: 100%; height: 100%;  display: flex; flex-direction: column; justify-content: center; align-items: start;">
+                                        <h5><i class="fas fa-wind"></i> HandFeel</h5>
+                                        <p>Desk fan</p>
+                                        <a href="../shop/index.html" class="btn btn-sm btn-light">Shop Now</a>
+                                    </div>
+                                    
+                                </div>
+                            
+                                <div
+                                    class="featured-product position-relative pt-5 ">
+                                    <img
+                                        src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Banner-4.jpeg"
+                                        alt="Gearbox"
+                                        class="img-fluid w-100 rounded"
+                                        style="object-fit: cover; height: 100%; "
+                                    />
+                                    <div class="featured-content position-absolute text-white p-4" style="top: 0; left: 0; width: 100%; height: 100%;  display: flex; flex-direction: column; justify-content: center; align-items: start;">
+                                        <h5>Gearbox</h5>
+                                        <p>Smart gadgets</p>
+                                        <a href="../shop/index.html" class="btn btn-sm btn-light"
+                                            >Shop Now</a
+                                        >
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Categories Section -->
+        <section class="">
+            <div class="container ">
+                <h2 class="section-title">Danh mục sản phẩm phổ biến</h2>
+                <div class="row g-4 ">
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="category-item d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="category-icon ">
+                                <i
+                                    class="fas fa-headphones fa-2x text-dark"
+                                ></i>
+                            </div>
+                            <h6>Headphones</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="category-item d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="category-icon">
+                                <i
+                                    class="fas fa-mobile-alt fa-2x text-dark"
+                                ></i>
+                            </div>
+                            <h6>Earbuds</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="category-item d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="category-icon">
+                                <i class="fas fa-phone fa-2x text-dark"></i>
+                            </div>
+                            <h6>Cell Phones</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="category-item d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="category-icon">
+                                <i
+                                    class="fas fa-charging-station fa-2x text-dark"
+                                ></i>
+                            </div>
+                            <h6>Chargers</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="category-item d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="category-icon">
+                                <i
+                                    class="fas fa-bluetooth fa-2x text-dark"
+                                ></i>
+                            </div>
+                            <h6>True Buds</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="category-item d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="category-icon">
+                                <i
+                                    class="fas fa-broadcast-tower fa-2x text-dark"
+                                ></i>
+                            </div>
+                            <h6>Black Radios</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Arrivals Section -->
+        <section class="py-5 bg-light">
+            <div class="container ">
+                <h2 class="section-title">Sản phẩm mới</h2>
+                <div class="row g-4">
+                    
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <a href="../product/1.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card " style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-3.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Ring Stick Up Cam Battery</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$159.99</span>
+                                    <span class="old-price">$129.99</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="../product/2.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card " style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-1.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Macbook Pro 2023</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$159.99</span>
+                                    <span class="old-price">$129.99</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="../product/1.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card " style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-3.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Ring Stick Up Cam Battery</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$159.99</span>
+                                    <span class="old-price">$129.99</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="../product/1.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card " style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-3.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Ring Stick Up Cam Battery</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$159.99</span>
+                                    <span class="old-price">$129.99</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="../product/1.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card " style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-3.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Ring Stick Up Cam Battery</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$159.99</span>
+                                    <span class="old-price">$129.99</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="../product/3.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card " style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-9.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Arlo Spotlight Camera Security</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$159.99</span>
+                                    <span class="old-price">$129.99</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="../product/4.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card h-100" style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-12.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Iphone 14</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$650.00</span>
+                                    <span class="old-price">$450.00</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="../product/5.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card h-100" style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-2.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Tesla – Universal Wall Connector</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$2,799.99</span>
+                                    <span class="old-price">$2,499.99</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AirPods Promotion Banner -->
+        <section class="d-flex align-items-center justify-content-center" >
+            <div class="container-fluid">
+                <div class="position-relative overflow-hidden mx-auto" style="height: 500px; max-width: 1200px;">
+                    <img
+                        src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Banner-1.jpeg"
+                        alt="AirPods"
+                        class="w-100 h-100 object-fit-cover"
+                    />
+                    <div
+                        class="position-absolute text-white p-5"
+                        style="
+                            top: 0;
+                            left: 0;
+                            width: 50%;
+                            height: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            background: rgba(0, 0, 0, 0.4);
+                        "
+                    >
+                        <h2 class="display-5 fw-bold">Freedom with AirPods</h2>
+                        <p class="lead">Unrivaled Wireless Sound & Freedom</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Our Advantages Section -->
+        <section class="advantages-section">
+            <div class="container">
+                <h2 class="section-title">Ưu điểm của chúng tôi</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="advantage-item">
+                            <div class="advantage-icon">
+                                <i class="fas fa-shipping-fast"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Free Fast Shipping</h6>
+                                <p class="mb-0 text-muted small">
+                                    Free delivery for all orders over $140
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="advantage-item">
+                            <div class="advantage-icon">
+                                <i class="fas fa-tag"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Best Price Guarantee</h6>
+                                <p class="mb-0 text-muted small">
+                                    If you find a lower price, we'll match it
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="advantage-item">
+                            <div class="advantage-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Online Support 24/7</h6>
+                                <p class="mb-0 text-muted small">
+                                    Technical support 24 hours a day
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="advantage-item">
+                            <div class="advantage-icon">
+                                <i class="fas fa-credit-card"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">100% Secure Checkout</h6>
+                                <p class="mb-0 text-muted small">
+                                    PayPal / MasterCard / Visa
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Deal of The Day Section -->
+        <section class="">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="position-relative rounded overflow-hidden" style="height: 100%; min-height: 200px;">
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Banner-1.jpeg"
+                                alt="Headphones"
+                                class="w-100 h-100"
+                                style="object-fit: cover;"
+                            />
+                            <div
+                                class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-start text-white p-4"
+                                
+                            >
+                                <div class="d-flex align-items-center my-3">
+                                
+                                <div>
+                                    <h5>Airpods Pro Last Gen</h5>
+                                    <div class="d-flex align-items-center mb-2">
+                                        <span class="product-price me-2"
+                                            >$159.99</span
+                                        >
+                                        <span class="old-price">$199.99</span>
+                                    </div>
+                                    
+                                    <a href="#" class="btn btn-primary"
+                                        >Shop Now</a
+                                    >
+                                </div>
+                                </div >
+                                    <div class="countdown-box">
+                                        <div class="countdown-item">
+                                            <span class="countdown-number">02</span>
+                                            <span class="countdown-label">Days</span>
+                                        </div>
+                                        <div class="countdown-item">
+                                            <span class="countdown-number">18</span>
+                                            <span class="countdown-label">Hrs</span>
+                                        </div>
+                                        <div class="countdown-item">
+                                            <span class="countdown-number">45</span>
+                                            <span class="countdown-label">Min</span>
+                                        </div>
+                                        <div class="countdown-item">
+                                            <span class="countdown-number">32</span>
+                                            <span class="countdown-label">Sec</span>
+                                        </div>
+                                        </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="position-relative rounded overflow-hidden" style="height: 100%; min-height: 200px;">
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Banner-1.jpeg"
+                                alt="Headphones"
+                                class="w-100 h-100"
+                                style="object-fit: cover;"
+                            />
+                            <div
+                                class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-start text-white p-4"
+                                
+                            >
+                                <h3 class="mb-3">🎧 Headphones</h3>
+                                <p class="mb-3">Top Quality Sound Experience</p>
+                                <a href="#" class="btn btn-primary">Shop Products</a>
+                            </div>
+        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Recently Launched Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Sản phẩm mới ra mắt</h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card product-card h-100">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-20.4-min-300x300.jpg" class="card-img-top" alt="Smartwatch">
+                            </div>
+                            <h5 class="card-title mt-3">HomePod</h5>
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="product-price">$299.99</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="text-muted ms-2">(5.0)</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="#" class="btn btn-primary d-block">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card product-card h-100">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-18.1-min-300x300.jpg" class="card-img-top" alt="Headset">
+                            </div>
+                            <h5 class="card-title mt-3">JBL Go 2</h5>
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="product-price">$38.48</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span class="text-muted ms-2">(4.0)</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="#" class="btn btn-primary d-block">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card product-card h-100">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-14.1-min-300x300.jpg" class="card-img-top" alt="Wi-Fi Router">
+                            </div>
+                            <h5 class="card-title mt-3">NS_APMWH2</h5>
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="product-price">$159.99</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <span class="text-muted ms-2">(3.5)</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="#" class="btn btn-primary d-block">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card product-card h-100">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-10.1-min-300x300.jpg" class="card-img-top" alt="Tablet">
+                            </div>
+                            <h5 class="card-title mt-3">Galaxy Tab Pro</h5>
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="product-price">$29.99</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span class="text-muted ms-2">(4.6)</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="#" class="btn btn-primary d-block">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <div class="product-filter mb-4">
+                        <button class="btn btn-outline-dark me-2 active">Tất cả</button>
+                        <button class="btn btn-outline-dark me-2">Nổi bật</button>
+                        <button class="btn btn-outline-dark me-2">Mới</button>
+                        <button class="btn btn-outline-dark">Doanh thu</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card product-card h-100">
+                        <div class="badge bg-danger position-absolute top-0 start-0 m-2">HOT</div>
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-5.1-min-300x300.jpg" class="card-img-top" alt="Drone">
+                            </div>
+                            <h5 class="card-title mt-3">Google Nest Audio</h5>
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="product-price">$99.99</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="text-muted ms-2">(5.0)</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="#" class="btn btn-primary d-block">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card product-card h-100">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-4.1-min-300x300.jpg" class="card-img-top" alt="Camera">
+                            </div>
+                            <h5 class="card-title mt-3">Nest X Yale Smart Lock</h5>
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="product-price">$279.99</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span class="text-muted ms-2">(4.1)</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="#" class="btn btn-primary d-block">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card product-card h-100">
+                        <div class="badge bg-success position-absolute top-0 start-0 m-2">NEW</div>
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-3.1-min-300x300.jpg" class="card-img-top" alt="Bluetooth Speaker">
+                            </div>
+                            <h5 class="card-title mt-3">Ring Stick Up Cam Battery</h5>
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="product-price">$129.99</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                                <span class="text-muted ms-2">(3.7)</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="#" class="btn btn-primary d-block">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card product-card h-100">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-11.1-min-300x300.jpg" class="card-img-top" alt="Smart Bulb">
+                            </div>
+                            <h5 class="card-title mt-3">Ring Wifi Video Doorbell</h5>
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="product-price">$2,779.99</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="text-muted ms-2">(4.9)</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="#" class="btn btn-primary d-block">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Brands Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title">Thương hiệu phổ biến</h2>
+            <div class="d-flex justify-content-center pt-5 row g-4">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6 ">
+                    <div class="brand-item">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/brand01.png" alt="Amazon" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="brand-item">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/brand02.png" alt="AMD" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="brand-item">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/brand03.png" alt="facebook" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="brand-item">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/brand04.png" alt="Logitech" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="brand-item">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/brand05.png" alt="apper" class="img-fluid">
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="brand-item">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/brand06.png" alt="hooli" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="brand-item">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/brand07.png" alt="Bose" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="brand-item">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/brand08.png" alt="JBL" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="brand-item">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/brand09.png" alt="Philips" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="brand-item">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/brand10.png" alt="Dell" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="brand-item">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/brand10.png" alt="Asus" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="brand-item">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/brand10.png" alt="HP" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ultra Portable Banner -->
+    <section>
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card bg-dark text-white">
+                        <div class="row g-0">
+                            <div class="col-md-8">
+                                <div class="card-body p-5">
+                                    <h2 class="card-title mb-4">Ultra Portable</h2>
+                                    <p class="card-text">Trải nghiệm thiết kế nhỏ gọn nhất với chức năng tối đa. Hoàn hảo cho lối sống năng động của bạn.</p>
+                                    <a href="#" class="btn btn-primary mt-3">Khám phá ngay</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section class="py-5 bg-light articles-section">
+        <div class="container">
+            <h2 class="section-title">Các bài báo </h2>
+            <div class="row g-4">
+            
+                <div class="col-lg-3 col-md-6">
+                <a href="../news/" style="text-decoration: none; color: inherit;">
+                    <div class="card h-100">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/elementor/thumbs/Image-post-5-qpjs616n89zxkqxhiag2deg6hmon8bhwebj740l35c.jpg" class="card-img-top" alt="Article 1">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Tech News</span>
+                            <h5 class="card-title">5 Essential Tips When Buying Headphones</h5>
+                            <p class="card-text">Everything you need to know before making your next headphones purchase.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">
+                                <i class="far fa-calendar-alt me-1"></i>
+                                <span>April 10, 2025</span>
+                            </small>
+                        </div>
+                    </div>
+                </a>
+                </div>
+            
+                <div class="col-lg-3 col-md-6">
+                <a href="../news/" style="text-decoration: none; color: inherit;">
+                    <div class="card h-100">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/elementor/thumbs/Image-post-6-qpjs5xfagxusab2y48tk3fec4376dj2z1sx96wqnu8.jpg" class="card-img-top" alt="Article 2">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Reviews</span>
+                            <h5 class="card-title">Latest Wireless Earbuds on Amazon</h5>
+                            <p class="card-text">We review the top wireless earbuds available on Amazon in 2025.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">
+                                <i class="far fa-calendar-alt me-1"></i>
+                                <span>April 5, 2025</span>
+                            </small>
+                        </div>
+                    </div>
+                </a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                <a href="../news/" style="text-decoration: none; color: inherit;">
+                    <div class="card h-100">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/elementor/thumbs/Image-post-8-qpjs5whga3thyp4b9qexixmvipbt5tz8po9rpms20g.jpg" class="card-img-top" alt="Article 3">
+                        <div class="card-body">
+                            <span class="badge bg-warning text-dark mb-2">Guides</span>
+                            <h5 class="card-title">Security Tips for Smart Homes</h5>
+                            <p class="card-text">Protect your smart home from potential security threats with these tips.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">
+                                <i class="far fa-calendar-alt me-1"></i>
+                                <span>March 29, 2025</span>
+                            </small>
+                        </div>
+                    </div>
+                </a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                <a href="../news/" style="text-decoration: none; color: inherit;">
+                    <div class="card h-100">
+                        <img src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/elementor/thumbs/Image-post-9-qpjs5tnxplpmzv8eq771tgchqjppiqo1pabb9sw8j4.jpg" class="card-img-top" alt="Article 4">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Trending</span>
+                            <h5 class="card-title">Top 10 Tech Gadgets for 2025</h5>
+                            <p class="card-text">Discover the most innovative gadgets that are making waves this year.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">
+                                <i class="far fa-calendar-alt me-1"></i>
+                                <span>March 22, 2025</span>
+                            </small>
+                        </div>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2>Đăng ký nhận bản tin của chúng tôi</h2>
+                    <p class="text-muted">Nhận thông tin cập nhật, ưu đãi và khuyến mại độc quyền mới nhất trực tiếp vào hộp thư đến của bạn.</p>
+                </div>
+                <div class="col-lg-6">
+                    <form class="d-flex">
+                        <input type="email" class="form-control me-2" placeholder="Your email address">
+                        <button class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Didn't Find & Need Help Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body p-4">
+                            <h4 class="mb-3">Didn't Find Anything?</h4>
+                            <p class="text-muted">Browse our full catalog or contact our support team for assistance.</p>
+                            <a href="#" class="btn btn-outline-primary">Browse All Products</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body p-4">
+                            <h4 class="mb-3">Need help?</h4>
+                            <p class="text-muted">Get the most interesting offers that fit your budget and needs.</p>
+                            <a href="#" class="btn btn-primary">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="footer-container"></div>
+    <script>
+        $(document).ready(function() {
+            // Load nội dung footer.html vào div có id là footer-container
+            $("#footer-container").load("footer.html");
+        });
+    </script>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="btn btn-primary btn-lg position-fixed bottom-0 end-0 m-4 rounded-circle" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    </body>
+</html>
+    

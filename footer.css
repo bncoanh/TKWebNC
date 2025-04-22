@@ -1,0 +1,52 @@
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 60px 0 30px;
+}
+
+.footer h5 {
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #d1d5db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.footer-links ul {
+    list-style: none; /* Xoá dấu chấm */
+    padding-left: 0;
+    margin: 0;
+}
+
+.footer-links ul li a {
+    color: white; /* Màu trắng */
+    text-decoration: none; /* Bỏ gạch chân */
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #0dcaf0; /* Màu xanh nhạt khi hover (Bootstrap's info) */
+    text-decoration: underline;
+}
+
+.footer-links h5 {
+    color: white;
+}

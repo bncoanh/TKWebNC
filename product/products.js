@@ -71,51 +71,6 @@ const productData = [
         oldPrice: 2999.99,
         brand: "Ring",
     },
-    {
-        id: 9,
-        name: "Ring Stick Up Cam Battery",
-        imageUrl:
-            "https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-3.1-min-300x300.jpg",
-        newPrice: 129.99,
-        oldPrice: 159.99,
-        brand: "",
-    },
-    {
-        id: 10,
-        name: "Macbook Pro 2023",
-        imageUrl:
-            "https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-1.1-min-300x300.jpg",
-        newPrice: 129.99,
-        oldPrice: 159.99,
-        brand: "",
-    },
-    {
-        id: 11,
-        name: "Arlo Spotlight Camera Security",
-        imageUrl:
-            "https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-9.1-min-300x300.jpg",
-        newPrice: 129.99,
-        oldPrice: 159.99,
-        brand: "",
-    },
-    {
-        id: 12,
-        name: "Iphone 14",
-        imageUrl:
-            "https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-12.1-min-300x300.jpg",
-        newPrice: 450.0,
-        oldPrice: 650.0,
-        brand: "Apple",
-    },
-    {
-        id: 13,
-        name: "Tesla – Universal Wall Connector",
-        imageUrl:
-            "https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-2.1-min-300x300.jpg",
-        newPrice: 2499.99,
-        oldPrice: 2799.99,
-        brand: "Tesla",
-    },
 ];
 
 $(document).ready(function () {
@@ -154,7 +109,9 @@ $(document).ready(function () {
     // Add button click event
     $(document).on("click", ".btn-shop-now", function (e) {
         e.stopPropagation(); // Prevent triggering the product card click
-        const productId = $(this).closest(".product-card").data("product-id");
+        const productId = $(this)
+            .closest(".product-card")
+            .data("product-id");
         showProductDetail(productId);
     });
 

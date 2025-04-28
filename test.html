@@ -1,76 +1,281 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
-    <link rel="stylesheet" href="test.css" />
-    <title>Login Page | Caged coder</title>
-  </head>
 
-  <body>
-    <div class="container" id="container">
-      <div class="form-container sign-up">
-        <form>
-          <h1>Create Account</h1>
-          <div class="social-icons">
-            <a href="#" class="icon"
-              ><i class="fa-brands fa-google-plus-g"></i
-            ></a>
-            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-            <a href="#" class="icon"
-              ><i class="fa-brands fa-linkedin-in"></i
-            ></a>
-          </div>
-          <span>or use your email for registeration</span>
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
-          <button>Sign Up</button>
-        </form>
-      </div>
-      <div class="form-container sign-in">
-        <form>
-          <h1>Sign In</h1>
-          <div class="social-icons">
-            <a href="#" class="icon"
-              ><i class="fa-brands fa-google-plus-g"></i
-            ></a>
-            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-            <a href="#" class="icon"
-              ><i class="fa-brands fa-linkedin-in"></i
-            ></a>
-          </div>
-          <span>or use your email password</span>
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
-          <a href="#">Forget Your Password?</a>
-          <button>Sign In</button>
-        </form>
-      </div>
-      <div class="toggle-container">
-        <div class="toggle">
-          <div class="toggle-panel toggle-left">
-            <h1>Welcome Back!</h1>
-            <p>Enter your personal details to use all of site features</p>
-            <button class="hidden" id="login">Sign In</button>
-          </div>
-          <div class="toggle-panel toggle-right">
-            <h1>Hello, Friend!</h1>
-            <p>
-              Register with your personal details to use all of site features
-            </p>
-            <button class="hidden" id="register">Sign Up</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script src="test.js"></script>
-  </body>
-</html>
+        <section class="py-5 bg-light">
+            <div class="container ">
+                <h2 class="section-title">Sản phẩm mới</h2>
+                <div class="row g-4">
+                    
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <a href="../product/1.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card " style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-3.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Ring Stick Up Cam Battery</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$159.99</span>
+                                    <span class="old-price">$129.99</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="../product/2.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card " style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-1.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Macbook Pro 2023</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$159.99</span>
+                                    <span class="old-price">$129.99</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="../product/1.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card " style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-3.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Ring Stick Up Cam Battery</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$159.99</span>
+                                    <span class="old-price">$129.99</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="../product/1.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card " style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-3.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Ring Stick Up Cam Battery</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$159.99</span>
+                                    <span class="old-price">$129.99</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="../product/1.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card " style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-3.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Ring Stick Up Cam Battery</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$159.99</span>
+                                    <span class="old-price">$129.99</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="../product/3.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card " style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-9.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Arlo Spotlight Camera Security</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$159.99</span>
+                                    <span class="old-price">$129.99</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="../product/4.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card h-100" style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-12.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Iphone 14</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$650.00</span>
+                                    <span class="old-price">$450.00</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <a href="../product/5.html" style="text-decoration: none; color: inherit;">
+                        <div class="card product-card h-100" style="transform: scale(0.9);">
+                            <span class="discount-badge">-20%</span>
+                            <img
+                                src="https://xstore.b-cdn.net/elementor3/electronic-mega-market/wp-content/uploads/sites/4/2023/11/Image-product-2.1-min-300x300.jpg"
+                                class="card-img-top"
+                                alt="Smart Home Remote"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Tesla – Universal Wall Connector</h5>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="product-price me-2 text-decoration-line-through">$2,799.99</span>
+                                    <span class="old-price">$2,499.99</span>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white border-top-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary">
+                                        Add to Cart
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>

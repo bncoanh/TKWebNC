@@ -168,6 +168,7 @@ $(document).ready(function () {
     $(document).on("click", ".back-to-products", function () {
         $("#product-detail").hide();
         $("#product-listing").show();
+        $("#banner-section").show();
     });
 
     // Add color selector click event
@@ -209,8 +210,9 @@ $(document).ready(function () {
                 $(".thumbnail-container").append(thumbnail);
             }
 
-            // Hide product listing and show product detail
+            // Hide product listing, banner section and show product detail
             $("#product-listing").hide();
+            $("#banner-section").hide();
             $("#product-detail").show();
 
             // Scroll to top
